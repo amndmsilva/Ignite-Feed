@@ -1,4 +1,4 @@
-
+import { PencilLine } from 'phosphor-react'
 import styles from './sidebar.module.css'
 
 export default function Sidebar() {
@@ -15,7 +15,10 @@ export default function Sidebar() {
             </div>
 
             <footer>
-                <a href="#">Editar seu perfil</a>
+                <a href="#">
+                    <PencilLine size={15}/>
+                    Editar seu perfil
+                </a>
             </footer>
         </aside>
     )
