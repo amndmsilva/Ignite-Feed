@@ -1,12 +1,11 @@
-import Header from './component/Header'
-import Sidebar from './component/Sidebar'
+import Header from "./component/Header";
+import Sidebar from "./component/Sidebar";
 
-import styles from './App.module.css'
-import './Global.css'
-import Post from './component/Post'
+import styles from "./App.module.css";
+import "./Global.css";
+import Post from "./component/Post";
 
 function App() {
-
   return (
     <>
       <Header />
@@ -15,11 +14,10 @@ function App() {
         <Sidebar />
         <main>
           <Post />
-          <Post />
         </main>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
